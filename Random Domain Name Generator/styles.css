@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(81, 108, 26);
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    overflow-y: auto;
+    margin: 0;
+}
+
+#combinaciones {
+    margin-top: 20px;
+    max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+  }
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 5rem;
+    /* margin-top: -30vh; */
+}
+
+
+
+textarea {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+textarea:focus {
+    outline:  10px ridge rgb(204, 195, 76);
+    border-radius: 0.5em;
+}
